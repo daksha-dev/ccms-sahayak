@@ -2,7 +2,7 @@
 
 > **From Court Judgments to Verified Action Plans — in minutes, not months.**
 
-**🚀 Live Demo:** [[`(https://ccms-sahayak.vercel.app/)`](https://ccms-sahayak.vercel.app/)](https://ccms-sahayak.vercel.app/)) 
+**🚀 Live Demo:** [(https://ccms-sahayak.vercel.app/)](https://ccms-sahayak.vercel.app/)) 
 
 CCMS-Sahayak is an AI-powered decision-support layer built for Karnataka's Court Case Management System (CCMS). It converts raw Karnataka High Court judgment PDFs — digital or scanned — into structured, human-verified action plans that government departments can act on immediately.
 
