@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./storage:/app/storage
+      - ./prompts:/prompts:ro
+
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      - VITE_API_TARGET=http://backend:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
